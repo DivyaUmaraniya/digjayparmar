@@ -133,14 +133,17 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .service .service-item .service-item-inner .icon{
+   border:1px solid #ffffff;
+  border-radius: 50%;
+
   height: 80px;
   width: 80px;
   /*background-color: red;*/
   margin: 0 auto 20px;
   display: block; 
   text-align: center;
-  border-radius: 50%;
 }
+
 .service .service-item .service-item-inner .icon .fa{
   height: 90px;
   width: 90px;
@@ -151,6 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   background-color: #2196f3;
+  color: #ffffff;
 }
 .service .service-item .service-item-inner:hover .icon .fa{
   font-size: 50px;
