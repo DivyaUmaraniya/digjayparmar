@@ -133,9 +133,9 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .service .service-item .service-item-inner .icon{
-   border:1px solid #ffffff;
+   border:1px solid #2196f3;
   border-radius: 50%;
-
+   background-color: #2196f3;
   height: 80px;
   width: 80px;
   /*background-color: red;*/
@@ -153,9 +153,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 60px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+ 
   color: #ffffff;
 }
 .service .service-item .service-item-inner:hover .icon .fa{
+   border:1px solid #2196f3;
+  border-radius: 50%;
   font-size: 50px;
   text-align: center;
   color: #2196f3;
