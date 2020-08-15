@@ -171,6 +171,73 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700; 
 }
 
+
+.contact .contact-info-item{
+  flex: 0 0 33%;
+  -ms-flex: 0 0 33%;
+  max-width: 33%;
+  text-align: center;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border:2px solid #d4d4e3;
+  padding: 15px;
+  margin-right: 3px;
+  border-radius: 20px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.contact .contact-info-item:hover{
+    -webkit-box-shadow:0 0 20px rgba(48,46,77,0.15);
+  box-shadow: 0 0 20px rgba(48,46,77,0.15);
+}
+.contact .contact-info-item .icon{
+  display:block;
+   border:1px solid #2196f3;
+  border-radius: 50%;
+   background-color: #2196f3;
+  height: 80px;
+  width: 80px;
+   margin: 0 auto 20px;
+}
+.contact .contact-info-item .icon .fa{
+   height: 90px;
+  width: 90px;
+  font-size: 35px;
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 9px;
+  padding-right:9px;
+  line-height: 60px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.contact .contact-info-item:hover .icon .fa
+{
+   border:1px solid #2196f3;
+  border-radius: 50%;
+  font-size: 50px;
+  text-align: center;
+  color: #2196f3;
+  background-color: #ffffff;
+}
+.contact .contact-info-item h4{
+  font-size: 30px;
+  font-weight: 700;
+  color: #302e4d;
+  text-transform: capitalize;;
+  margin-top: 15px 0 5px;
+}
+.contact .contact-info-item p{
+  font-size: 20px;
+  line-height: 25px;
+  color: #504e70;
+  margin:0;
+  font-weight:400; 
+  text-align: center;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -294,6 +361,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media(max-width: 992px){
+
   .service .service-item{
     flex: 0 0 50%;
     -ms-flex:0 0 50%;
@@ -301,6 +369,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (max-width: 767px){
+  .contact .contact-info-item,
   .service .service-item{
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
